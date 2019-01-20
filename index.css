@@ -1,0 +1,422 @@
+@font-face {
+    font-family: Neutra;
+    font-style: normal;
+    src:
+      url(./neutra-text/NeutraText-Book.otf) format('opentype');
+  }
+  
+  @font-face {
+    font-family: Neutra-bold;
+    font-style: normal;
+    src:
+      url(./neutra-text/NeutraText-Bold.otf) format('opentype');
+  }
+  
+
+.custom-navbar{
+    background-color:#5266d4;
+    height:70px;
+}
+
+.nav-link{
+    /* border:1px solid red; */
+    display:inline-block;
+    color:white !important;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+    height: 75px;
+    /* min-width:225px; */
+    line-height:55px;
+    font-style: italic;
+}
+
+.custom-collapse {
+    width: 50%;
+    margin-left: 12.5%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+
+.page1{
+    height:100vh;
+    margin-top:-70px;
+    padding-top:70px;
+    display: flex;
+}
+
+.page1-left{
+    /* border: 1px solid red; */
+    width: 75%;
+    background-image: url('page1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.page1-left-1 {
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 250px;
+}
+
+.page1-right{
+    /* margin-top:70px; */
+    width:25%;
+    background-color:#5266d4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.page1-right-1{
+    align-items: center;
+    padding-top: 10px;
+}
+
+.yara-img{
+    height: 150px;
+    border-radius: 50%;
+}
+
+.yara-name{
+    padding-top: 30px;
+    font-family: 'Katibeh', cursive;
+    font-size:50px;
+    color:white; 
+    text-align: center;
+}
+
+.page1-right-2{
+    /* border: 1px solid blue; */
+    /* border: 1px solid blue; */
+    text-align: center;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    font-size:15px;
+    padding-bottom: 25px;
+    
+}
+
+.page1-right-3{
+    /* border: 1px solid blue; */
+    text-align: center;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size:15px;
+    padding-bottom:50px;
+}
+
+.page1-right-4{
+    padding-bottom:25px;
+    /* border: 1px solid blue; */
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.page1-right-5{
+    /* border: 1px solid blue; */
+    /* border: 1px solid green; */
+}
+
+.page2{
+    height:65vh;
+    margin-top:-70px;
+    padding-top:70px;
+    /* display: flex; */
+    width: 100%;
+    background-color: #eff1fd;
+    
+}
+.page2-contents{
+    height:100%;
+    padding-top:70px;
+    width: 60%;
+    margin-left:17%;
+    /* border:1px solid red; */
+}
+.page2-about-heading{
+    font-size: 45px;
+    font-family: 'Arima Madurai', cursive;
+    color: #5266d4;
+}
+
+.page2-about-back{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300; 
+    color: #5266d4;
+}
+
+.page2-about{
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200; 
+}
+
+.page3{
+    display: flex;
+    margin-top: 80px;
+    padding-bottom: 75px;
+}
+
+.page3-left{
+    width:41%;
+    /* border: 1px solid red; */
+    min-height: 80vh;
+    margin-left: 9%;
+    margin-right: 3%;
+}
+
+.page3-right{
+    width:41%;
+    /* border: 1px solid red; */
+    min-height: 80vh;
+    margin-left: 3%;
+    margin-right: 6%;
+}
+
+.page3-left-contents {
+    /* border: 1px solid blue; */
+    width: 80%;
+    margin-left:20%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+}
+
+.page3-right-contents{
+    width: 80%;
+    margin-left:10%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+}
+
+.p3 {
+    height: 100%;
+    /* border: 1px solid red; */
+    /* display:flex;
+    justify-content: space-between;
+    flex-direction: column; */
+}
+
+.p3-box{
+    margin-top: 50px;
+}
+
+
+.page3-heading{
+    font-size: 30px;
+    font-family: 'Arima Madurai', cursive;
+    color: #5266d4;
+}
+
+.page3-sub {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300; 
+    color: #5266d4;
+}
+
+.page3-date{
+    font-family: Neutra;
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(68, 68, 68);
+}
+
+.page3-details{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: rgb(95, 95, 95);
+}
+
+.page4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 66%;
+    margin-left: 17%;
+    padding-bottom: 75px;
+    padding-top:75px;
+}
+
+.page4-head{
+    font-size: 30px;
+    font-family: 'Arima Madurai', cursive;
+    color: #5266d4;
+}
+
+.page4-skills-lang{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.skills-lang-left{
+    flex-grow:3;
+    flex-basis: 30%;
+}
+.skills-lang-right{
+    flex-grow:4;
+    flex-basis: 60%;
+}
+
+.skill {
+    margin-top:30px;
+    height: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: rgb(95, 95, 95);
+}
+
+.skill-meter{
+    height: 20px;
+    margin-top:30px;
+    /* border: 1px solid red; */
+    /* vertical-align: middle; */
+    padding-top: 8px;
+}
+
+.photoshop{
+    background: linear-gradient(to right,  #5569db 0%,#5569db 90%,#ebebeb 90%,#ebebeb 100%);
+    width: 100%;
+    height:25%;
+}
+.illustrator{
+    background: linear-gradient(to right,  #5569db 0%,#5569db 90%,#ebebeb 90%,#ebebeb 100%);
+    width: 100%;
+    height:25%;
+}
+.indesign{
+    background: linear-gradient(to right,  #5569db 0%,#5569db 90%,#ebebeb 90%,#ebebeb 100%);
+    width: 100%;
+    height:25%;
+}
+.autocad{
+    background: linear-gradient(to right,  #5569db 0%,#5569db 90%,#ebebeb 90%,#ebebeb 100%);
+    width: 100%;
+    height:25%;
+}
+.revit{
+    background: linear-gradient(to right,  #5569db 0%,#5569db 40%,#ebebeb 40%,#ebebeb 100%);
+    width: 100%;
+    height:25%;
+}
+.office{
+    background: linear-gradient(to right,  #5569db 0%,#5569db 60%,#ebebeb 60%,#ebebeb 100%);
+    width: 100%;
+    height:25%;
+}
+.vray{
+    background: linear-gradient(to right,  #5569db 0%,#5569db 60%,#ebebeb 60%,#ebebeb 100%);
+    width: 100%;
+    height:25%;
+}
+
+.page5{
+    display: flex;
+    margin-top: 80px;
+    padding-bottom: 25px;
+    background-color: #eff1fd;
+}
+
+.page5-left{
+    width:41%;
+    /* border: 1px solid red; */
+    min-height: 40vh;
+    margin-left: 9%;
+    margin-right: 3%;
+}
+
+.page5-right{
+    width:41%;
+    /* border: 1px solid red; */
+    min-height: 40vh;
+    margin-left: 3%;
+    margin-right: 6%;
+}
+
+.footer {
+    width: 100vw;
+    background-color:#5266d4;
+    height: 50px;
+}
+
+.p5-box{
+    margin-top: 50px;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.page5-heading{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #464750;
+    margin-top:5px;
+}
+
+button{
+    background-color:#5266d4;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 17px;
+}
+.dwn-cv-1{
+    background-color:white;
+    color: #5266d4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 17px;
+    width: 150px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+.dwn-cv-1:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .custom-navbar{
+        background-color:#5266d4;
+        height:inherit;
+    }
+
+    .custom-collapse {
+        width: 45%;
+        border: 0;
+        margin-left: 15%;
+        display:unset !important;
+    }
+
+}
